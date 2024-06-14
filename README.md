@@ -17,8 +17,8 @@ This Arduino CPX game is a mini-game where the player must stop a moving blue LE
 - **Rainbow LEDs:** Display a rainbow effect at the start of each level.
 - **Blue Moving LED:** Indicates the position of the blue LED, which the player must stop.
 - **Green LED Target Zone:** Indicates the area where the blue LED should be stopped.
-- **Voice Output:** Provides audio feedback for success (winning the game) or failure (game over).
-- **Sound Output:** Plays tunes corresponding to success or failure events during the game.
+- **Voice Output:** Provides audio feedback upon completing the game.
+- **Sound Output:** Plays success tune upon completing the game.
 
 ## **Game Rules:**
 - The game starts at level 1 and progresses to level 10.
