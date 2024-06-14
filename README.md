@@ -10,6 +10,7 @@ This Arduino CPX game is a mini-game where the player must stop a moving blue LE
 
 ## **Inputs:**
 - **Right Button:** Stop the Blue LED.
+- **Left Button:** Advance to next level.
 - **Switch:** Turn the game on/off and reset it.
 
 ## **Outputs:**
@@ -26,6 +27,5 @@ This Arduino CPX game is a mini-game where the player must stop a moving blue LE
 - The player must beat level 10 to win the game.
 
 ## **Notes:**
-- The green target zone decreases as the level increases.
-- The left button can be used to skip to the next level.
-- The game can be turned on/off using the switch.
+- The green target zone shrinks every other level.
+- The speed increases as the levels progress.
