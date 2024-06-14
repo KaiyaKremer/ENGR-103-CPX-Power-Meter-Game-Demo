@@ -10,15 +10,14 @@ This Arduino CPX game is a mini-game where the player must stop a moving blue LE
 
 ## **Inputs:**
 - **Right Button:** Stop the Blue LED.
-- **Left Button:** Instantly progress to the next level.
 - **Switch:** Turn the game on/off and reset it.
 
 ## **Outputs:**
 - **Rainbow LEDs:** Display a rainbow effect at the start of each level.
 - **Blue Moving LED:** Indicates the position of the blue LED, which the player must stop.
 - **Green LED Target Zone:** Indicates the area where the blue LED should be stopped.
-- **Voice Output:** Provides audio feedback upon completing the game.
-- **Sound Output:** Plays success tune upon completing the game.
+- **Voice Output:** Provides audio feedback upon advancing each level and completing the game.
+- **Sound Output:** Plays Lost Woods upon completing the game.
 
 ## **Game Rules:**
 - The game starts at level 1 and progresses to level 10.
