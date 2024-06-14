@@ -184,7 +184,7 @@ void checkSuccess() {
 void youWon() {
   Serial.println("You won!"); // print win message
   Serial.println("Play Happy Tune"); // indicate happy tune
-
+  showRainbow(); // show rainbow effect
   
   for (int i = 0; i < 20; i++) { // play Lost Woods
     CircuitPlayground.playTone(midi[lost_woods[i][0]], lost_woods[i][1]);
